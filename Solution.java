@@ -10,10 +10,10 @@ public class Solution {
         vis[0]=true;
         while(!q.isEmpty())
         {
-            Integer node=q.poll()   ;
+            Integer node=q.poll();
             bfs.add(node);
         
-        for(int it:adj.get(node))
+        for(int it:adj.get(node))   
         {
             if (vis[it]==false)
             {
@@ -26,6 +26,8 @@ public class Solution {
     return bfs;
     
 }
+}
+class Main{
 
 
     public static void main(String args[])
@@ -55,4 +57,5 @@ public class Solution {
     }
 }
 }
+
 

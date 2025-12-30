@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": ["src/main/java", "Arrays"],
+    "java.project.outputPath": "target/classes",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "",
+            "default": true
+        }
+    ]
+}

@@ -27,7 +27,7 @@ public class longestnum
     {
         int arr[]={10,20,60,34,80};
         int n=arr.length;
-        int result=secondlongest(n,arr);
+        int result=Solution.secondlargest(n,arr);
         System.out.println("The second largest number is: "+result);    
     }
 }
